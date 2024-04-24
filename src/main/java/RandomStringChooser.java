@@ -2,15 +2,15 @@ import java.util.*;
 public class RandomStringChooser
 {
   /* to be implemented in part (a) */
-  private ArrayList <String> array;
+  private ArrayList <String> arr;
   RandomStringChooser(String[] a){
-    array = new ArrayList <String> ();
+    arr = new ArrayList <String> ();
     for(String b: a)
-      array.add(b);
+      arr.add(b);
   }
 
   public String getNext(){
-    if(array.size()>0){
+    if(arr.size()>0){
      int index = (int)(Math.random()*array.size());
      String temp = array.get(index);
      array.remove(index);
