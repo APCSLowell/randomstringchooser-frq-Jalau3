@@ -13,7 +13,7 @@ public class RandomStringChooser
     if(arr.size()>0){
      int index = (int)(Math.random()*arr.size());
      String temp = arr.get(index);
-     array.remove(index);
+     arr.remove(index);
       return temp;
     }
     return "NONE";
