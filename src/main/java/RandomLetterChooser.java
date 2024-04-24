@@ -1,15 +1,8 @@
 public class RandomLetterChooser extends RandomStringChooser
 {
-	private String [] k;
-	private ArrayList <String> arr;
 	public RandomLetterChooser(String str)
 	{ 
-		/* to be implemented in part (b) */
-		k = getSingleLetters(str);
-		arr = new ArrayList <String> ();
-		for(String a:k)
-			arr.add(a);
-		
+		super(getSingleLetters(str);
 	}
 	
 	
