@@ -11,8 +11,8 @@ public class RandomStringChooser
 
   public String getNext(){
     if(arr.size()>0){
-     int index = (int)(Math.random()*array.size());
-     String temp = array.get(index);
+     int index = (int)(Math.random()*arr.size());
+     String temp = arr.get(index);
      array.remove(index);
       return temp;
     }
